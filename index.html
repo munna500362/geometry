@@ -41,7 +41,28 @@
                 </div>
                
             </div>
+            <!--  Rectangle Area -->
+            <div class="card bg-base-100 w-full md:w-60 lg:w-72 shadow-xl">
+                <figure>
+                <img class="p-8 "
+                    src="image/rectangle.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                <h2 class=" text-center text-2xl md:text-3xl font-semibold">Rectangle Area</h2>
+                <p class="text-center"> Area (A) = w x l</p>
 
+                <p class="space-y-2">
+
+                <input class="w-20 px-2 bg-gray-200 outline-none" type="text" name="" id="RectangleInput" placeholder="w"><span>cm<sup>2</sup></span>
+                <input class="w-20 px-2 ml-1 bg-gray-200  outline-none" type="text" name="" id="RectangleLine" placeholder="l"><span>cm<sup>2</sup></span>
+                </p>
+                <p>Area : <span id="Rectanglevalue">00</span></p>
+                <div class="mt-5">
+                    <button onclick="myRectengle()" class="btn btn-primary w-full">Calculate</button>
+                </div>
+                </div>
+            </div>
 
             <div>
                  <div class="w-full md:w-[350px] text-4xl border">Area Calculation</div> 
@@ -52,6 +73,7 @@
 
 
     <script src="js/Trangle.js"></script>
+    <script src="js/Rectengle.js"></script>
  
     <script>
      
